@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="shortcut icon" href="faviconSpotify.ico" type="image/x-icon">
+    <script src="spotify.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="left">
+            <div class="left-top box-color border">
+                <div class="logo">
+                    <img src="svgs/logo.svg" alt="spotify logo">
+                    <img class="cancel" src="svgs/cancel.svg" alt="cancel logo">
+                </div>
+                <ul>
+                    <li class="home">
+                        <img src="svgs/home.svg" alt="Home logo">
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="search">
+                        <img src="svgs/search.svg" alt="Search logo">
+                        <a href="/">Search</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="left-bottom box-color border">
+                <div class="library">
+                    <div class="logo-text flex">
+                        <img src="svgs/library.svg" alt="library logo">
+                        <span>Your Library </span>
+                    </div>
+                    <img src="svgs/plus.svg" alt="plus logo">
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="left-footer">
+                    <span>Legal</span>
+                    <span>Privacy Center</span>
+                    <span>Privacy Policy</span>
+                    <span>Cookies</span>
+                    <span>About Ads</span>
+                    <span>Accessibility</span><br>
+                    <span>Cookies</span>
+                    <div class="button">
+                        <button class="lang flex">
+                            <img src="svgs/lang.svg" alt="lang">
+                            <span>English</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right box-color border">
+            <div class="header">
+
+                <div class="arrows flex">
+                    <img class="hamburger" src="svgs/hamburger.svg" alt="Hamburger">
+                    <img src="svgs/left.svg" alt="left icon">
+                     <img src="svgs/right.svg" alt="right icon">
+                    
+                </div>
+                <div class="buttons flex">
+                    <button>Sign up</button>
+                    <button>Log in</button>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <h3>Spotify Playlists</h3>
+                <div class="card-container">
+                    <div class="card flex">
+                        <div class="img-cont">
+                            <img src="Images/ImageCard1.jpg" alt="card image">
+                        </div>
+                        <div class="card-text">
+                            <h5>Today's Top Hits</h5>
+                            <p>Ariana grande is on top of the hottest 50!</p>
+                        </div>
+                        <svg width="44" height="44" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" fill="#1ed760" />
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="-4 -4 32 32"
+                                class="Svg-sc-ytk21e-0 iYxpxA" width="26" height="26" x="10" y="10">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </svg>
+                        
+                    </div>
+
+                    <div class="card flex">
+                        <div class="img-cont">
+                            <img src="Images/ImageCard2.jpg" alt="card image">
+                        </div>
+                        <div class="card-text">
+                            <h5>Chillhop</h5>
+                            <p>Rock legends & epic songs that continue to inspire...</p>
+                        </div>
+
+                        <svg width="44" height="44" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" fill="#1ed760" />
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="-4 -4 32 32"
+                                class="Svg-sc-ytk21e-0 iYxpxA" width="26" height="26" x="10" y="10">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </svg>
+                    </div>
+
+
+                    <div class="card flex">
+                        <div class="img-cont">
+                            <img src="Images/ImageCard3.jpg" alt="card image">
+                        </div>
+                        <div class="card-text">
+                            <h5>Jazz in the backgrou...</h5>
+                            <p>Soft instruemental Jazz for all your activities.</p>
+                        </div>
+
+                        <svg width="44" height="44" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" fill="#1ed760" />
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="-4 -4 32 32"
+                                class="Svg-sc-ytk21e-0 iYxpxA" width="26" height="26" x="10" y="10">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </svg>
+                    </div>
+
+
+                    <div class="card flex">
+                        <div class="img-cont">
+                            <img src="Images/ImageCard4.jpg" alt="card image">
+                        </div>
+                        <div class="card-text">
+                            <h5>Calming Acoustic</h5>
+                            <p>Calm your mind from anxiety with gentle piano...</p>
+                        </div>
+
+                        <svg width="44" height="44" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" fill="#1ed760" />
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="-4 -4 32 32"
+                                class="Svg-sc-ytk21e-0 iYxpxA" width="26" height="26" x="10" y="10">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </svg>
+                    </div>
+
+
+                    <div class="card flex">
+                        <div class="img-cont">
+                            <img src="Images/ImageCard5.jpg" alt="card image">
+                        </div>
+                        <div class="card-text">
+                            <h5>Sleep</h5>
+                            <p>Gentle Ambient piano to help you fall asleep.</p>
+                        </div>
+
+                        <svg width="44" height="44" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" fill="#1ed760" />
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="-4 -4 32 32"
+                                class="Svg-sc-ytk21e-0 iYxpxA" width="26" height="26" x="10" y="10">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </svg>
+                    </div>
+
+
+                    <div class="card flex">
+                        <div class="img-cont">
+                            <img src="Images/ImageCard6.jpg" alt="card image">
+                        </div>
+                        <div class="card-text">
+                            <h5>lofi sleep</h5>
+                            <p>Instrumental beats for a restful night's sleep.</p>
+                        </div>
+
+                        <svg width="44" height="44" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" fill="#1ed760" />
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="-4 -4 32 32"
+                                class="Svg-sc-ytk21e-0 iYxpxA" width="26" height="26" x="10" y="10">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </svg>
+                    </div>
+
+
+                    <div class="card flex">
+                        <div class="img-cont">
+                            <img src="Images/ImageCard7.jpg" alt="card image">
+                        </div>
+                        <div class="card-text">
+                            <h5>Deep Sleep</h5>
+                            <p>Soothing,minimalist ambient for deep sleep.</p>
+                        </div>
+
+                        <svg width="44" height="44" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" fill="#1ed760" />
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="-4 -4 32 32"
+                                class="Svg-sc-ytk21e-0 iYxpxA" width="26" height="26" x="10" y="10">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </svg>
+                    </div>
+
+
+                    <div class="card flex">
+                        <div class="img-cont">
+                            <img src="Images/ImageCard8.jpg" alt="card image">
+                        </div>
+                        <div class="card-text">
+                            <h5>All Out 2020s</h5>
+                            <p>The biggest songs of the 2020s.</p>
+                        </div>
+
+                        <svg width="44" height="44" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" fill="#1ed760" />
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="-4 -4 32 32"
+                                class="Svg-sc-ytk21e-0 iYxpxA" width="26" height="26" x="10" y="10">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </svg>
+                    </div>
+
+
+                    <div class="card flex">
+                        <div class="img-cont">
+                            <img src="Images/ImageCard9.jpg" alt="card image">
+                        </div>
+                        <div class="card-text">
+                            <h5>Chill Hits</h5>
+                            <p>Kick back to the best new and recent chill hits.</p>
+                        </div>
+
+                        <svg width="44" height="44" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" fill="#1ed760" />
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="-4 -4 32 32"
+                                class="Svg-sc-ytk21e-0 iYxpxA" width="26" height="26" x="10" y="10">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </svg>
+                    </div>
+
+
+                    <div class="card flex">
+                        <div class="img-cont">
+                            <img src="Images/ImageCard10.jpg" alt="card image">
+                        </div>
+                        <div class="card-text">
+                            <h5>Chillout Lounge</h5>
+                            <p>Just lean back and enjoy relaxed beats.</p>
+                        </div>
+
+                        <svg width="44" height="44" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22" cy="22" r="22" fill="#1ed760" />
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="-4 -4 32 32"
+                                class="Svg-sc-ytk21e-0 iYxpxA" width="26" height="26" x="10" y="10">
+                                <path
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z">
+                                </path>
+                            </svg>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="right-footer">
+                <div class="content">
+
+                    <div class="col1">
+                        <h4>Company</h4>
+                        <a href="/">About</a>
+                        <a href="/">Jobs</a>
+                        <a href="/">For the Record</a>
+                    </div>
+
+                    <div class="col2">
+                        <h4>Communities</h4>
+                        <a href="/">For Artists</a>
+                        <a href="/">Developers</a>
+                        <a href="/">Advertising</a>
+                        <a href="/">Investors</a>
+                        <a href="/">Vendors</a>
+                    </div>
+
+                    <div class="col3">
+                        <h4>Useful links</h4>
+                        <a href="/">Support</a>
+                        <a href="/">Free Mobile App</a>
+                    </div>
+
+                    <div class="media">
+                        <img src="svgs/insta.svg" alt="insta logo">
+                        <img src="svgs/twitter.svg" alt="twitter logo">
+                        <img src="svgs/facebook.svg" alt="facebook logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="playbar">
+
+                <div class="playbar-top">
+
+
+                    <div class="song-info">
+
+                    </div>
+
+                    <div class="play-buttons flex">
+                        <img id="prev" src="svgs/prev.svg" alt="previous">
+                        <img id="play" src="svgs/pause.svg" alt="play">
+                        <img id="next" src="svgs/next.svg" alt="next">
+                    </div>
+
+                    <div class="song-time">
+
+                    </div>
+
+                    <div class="volume flex">
+                        <img src="svgs/volume.svg" alt="Vol Logo">
+                        <div class="vol-range">
+                            <input type="range" name="volume">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="seekbar">
+                    <div class="circle">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
